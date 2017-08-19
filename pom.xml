@@ -22,4 +22,11 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>snehashis-snapshots</name>
+        <url>https://snehashis.jfrog.io/snehashis/libs-snapshot-local</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
